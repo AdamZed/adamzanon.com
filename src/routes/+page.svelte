@@ -20,4 +20,8 @@
 
 <Projects />
 
-<div class="footer mb-2 flex justify-center text-center text-neutral">© 2024 Adam Zanon</div>
+<div class="footer mb-2 flex justify-center text-center text-neutral">
+	© 2024 Adam Zanon<a target="_blank" href="https://www.github.com/AdamZed/adamzanon.com">
+		<span class="icon-[mingcute--github-fill] size-5 text-neutral hover:text-secondary" />
+	</a>
+</div>
