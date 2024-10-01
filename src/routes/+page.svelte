@@ -6,7 +6,7 @@
 	<title>Adam Zanon</title>
 </svelte:head>
 
-<div class="mx-52 mt-48 border-t-2 border-secondary pt-6">
+<div class="mx-10 mt-20 border-t-2 border-secondary pt-2 lg:mx-52 lg:mt-48 lg:pt-6">
 	<h1 class="font-mono text-3xl font-bold text-primary">Adam Zanon</h1>
 	<div>
 		<a target="_blank" href="https://www.github.com/AdamZed">

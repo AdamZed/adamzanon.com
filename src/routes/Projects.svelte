@@ -1,11 +1,11 @@
 <script lang="ts">
 	const BADGE_STYLES: Record<string, string> = {
-		Swift: 'bg-[#EF4F3A]',
-		Flutter: 'bg-[#25AAF2]',
-		Python: 'bg-[#386C9C]',
-		Django: 'bg-[#183D30]',
+		Swift: 'bg-[#EF4F3A] text-white',
+		Flutter: 'bg-[#25AAF2] text-white',
+		Python: 'bg-[#386C9C] text-yellow-500',
+		Django: 'bg-[#183D30] text-white',
 		Svelte: 'bg-[#FF3F18]',
-		Java: 'bg-[#3467A5]'
+		Java: 'bg-[#3467A5] text-orange-500'
 	};
 	let projects = [
 		{
@@ -36,7 +36,7 @@
 </script>
 
 <div class="my-20 bg-[#242c3b] pb-20">
-	<div class="mx-52 pt-6">
+	<div class="mx-5 pt-6 lg:mx-52">
 		<div class="flex justify-center">
 			<h2 class="my-4 w-64 border-b-2 border-primary text-center text-2xl font-bold text-neutral">
 				Projects
