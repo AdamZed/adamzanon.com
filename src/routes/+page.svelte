@@ -20,13 +20,14 @@
 
 <Projects />
 
-<div class="footer mb-2 flex justify-center text-center text-neutral">
-	© 2024 Adam Zanon
-	<a
-		aria-label="project source link"
-		target="_blank"
-		href="https://www.github.com/AdamZed/adamzanon.com"
-	>
-		<span class="icon-[mingcute--github-fill] size-5 text-neutral hover:text-secondary"></span>
-	</a>
-</div>
+<footer class="footer footer-center rounded-t p-10">
+	<p class="flex text-neutral">
+		© 2024 Adam Zanon <a
+			aria-label="project source link"
+			target="_blank"
+			href="https://www.github.com/AdamZed/adamzanon.com"
+		>
+			<span class="icon-[mingcute--github-fill] size-4 text-neutral hover:text-secondary"></span>
+		</a>
+	</p>
+</footer>

@@ -35,7 +35,7 @@
 	];
 </script>
 
-<div class="my-20 bg-[#242c3b] pb-20">
+<div class="mt-20 bg-[#242c3b] pb-20">
 	<div class="mx-5 pt-6 lg:mx-52">
 		<div class="flex justify-center">
 			<h2 class="my-4 w-64 border-b-2 border-primary text-center text-2xl font-bold text-neutral">
