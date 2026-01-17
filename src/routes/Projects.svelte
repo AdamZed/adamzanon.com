@@ -5,7 +5,9 @@
 		Python: 'bg-[#386C9C] text-yellow-500',
 		Django: 'bg-[#183D30] text-white',
 		Svelte: 'bg-[#FF3F18]',
-		Java: 'bg-[#3467A5] text-orange-500'
+		Java: 'bg-[#3467A5] text-orange-500',
+		JavaScript: 'bg-[#EBD94D]',
+		Tailwind: 'bg-[#54B9F9]'
 	};
 	let projects = [
 		{
@@ -15,10 +17,16 @@
 			badges: ['Swift', 'Svelte']
 		},
 		{
+			name: 'Can you keep score?',
+			desc: 'Simple scoreboard progressive webapp for keeping score of volleyball / soccer / other games',
+			link: 'https://vault.adamzanon.com/cyks',
+			badges: ['JavaScript', 'Tailwind']
+		},
+		{
 			name: 'SummNews',
 			desc: 'News mobile application made in 24 hours for YorkU Hacks 2018',
 			link: 'https://github.com/AdamZed/SummNews',
-			badges: ['Flutter']
+			badges: ['Flutter', 'Python']
 		},
 		{
 			name: 'YURoomie',
@@ -42,7 +50,7 @@
 				Projects
 			</h2>
 		</div>
-		<div class="flex flex-wrap justify-around gap-5">
+		<div class="flex flex-wrap justify-center gap-5">
 			{#each projects as proj}
 				<div
 					class="card card-bordered max-w-xs basis-full bg-base-300 p-10 shadow-xl hover:bg-base-200"
